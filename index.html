@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>B.Tech CSE (DS) Syllabus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>B.Tech CSE (DS)</h1>
+    <p>Choose a subject to see its units and topics</p>
+  </header>
+
+  <main>
+    <section id="list-view">
+      <h2>Subjects</h2>
+      <div id="subject-grid" class="grid"></div>
+    </section>
+
+    <section id="detail-view" hidden>
+      <button id="back-btn" class="back" type="button">&larr; All subjects</button>
+      <h2 id="detail-title"></h2>
+      <div id="units"></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
